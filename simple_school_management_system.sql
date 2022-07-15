@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 15, 2022 at 06:59 PM
+-- Generation Time: Jul 15, 2022 at 07:26 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -173,7 +173,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('MJUM1eFolUUNIzFnkYsUscXSPckraQV9Xc71ZTX7', 1, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiSnVyVmV5WWx1amNrTUpvbUdzUzRIdURsYk5LUFo5am83ZHJTYWpHQyI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NjM6Imh0dHA6Ly9sb2NhbGhvc3Qvc2ltcGxlLXNjaG9vbC1tYW5hZ2VtZW50LXN5c3RlbS9wdWJsaWMvY291cnNlcyI7fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoyMToicGFzc3dvcmRfaGFzaF9zYW5jdHVtIjtzOjYwOiIkMnkkMTAkRnN1dVJiV1kuczFxMUJaLnE2VGJQdXZ4aVd5ZDhmNWpoeVlWRHJ2R1NWYzFjTjlhTFJGVi4iO30=', 1657904295);
+('9NrmY01qNeLAOoEFvOvOqVf2GmAV86g1puqCWmi3', 3, '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiaFpSOHNQeHdoSjhkN0h6M2hxUFRCOGoxcGlNM040bzVlZzFvbExtSiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NjE6Imh0dHA6Ly9sb2NhbGhvc3Qvc2ltcGxlLXNjaG9vbC1tYW5hZ2VtZW50LXN5c3RlbS9wdWJsaWMvdXNlcnMiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aTozO3M6MjE6InBhc3N3b3JkX2hhc2hfc2FuY3R1bSI7czo2MDoiJDJ5JDEwJDZOUk1qUThnS2dpREY0UTlMV092N082NG5VVEhub3FVWGRCYUtqd0RNZnJqZzBzRXljZFlHIjt9', 1657905834);
 
 -- --------------------------------------------------------
 
@@ -231,7 +231,7 @@ CREATE TABLE `user_details` (
 --
 
 INSERT INTO `user_details` (`id`, `user_id`, `phone`, `address`, `image`, `nid`, `status`, `created_at`, `updated_at`) VALUES
-(1, 1, NULL, NULL, NULL, NULL, 1, '2022-07-15 01:19:06', '2022-07-15 01:20:41'),
+(1, 1, '01987985663', 'dhaka', 'profile-assets/img/wgbpEtoK6M21srrk.jpg', '4646545475477', 1, '2022-07-15 01:19:06', '2022-07-15 11:23:18'),
 (2, 2, '01998569663', 'Tejgaon,Dhaka-1215.', 'profile-assets/img/NWrMwzyMJz8Z9GnW.jpg', '24635456475784', 1, '2022-07-15 01:19:31', '2022-07-15 10:10:30'),
 (3, 3, '01998569663', 'Dhaka', 'profile-assets/img/va6xkgp2Ftdpekk5.jpg', '4646545475477', 1, '2022-07-15 01:20:05', '2022-07-15 02:08:27');
 
@@ -307,7 +307,7 @@ ALTER TABLE `user_details`
 -- AUTO_INCREMENT for table `courses`
 --
 ALTER TABLE `courses`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `enrolls`
